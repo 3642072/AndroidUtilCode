@@ -1,6 +1,8 @@
-![logo][logo]
+[![logo][logo]](https://github.com/Blankj/AndroidUtilCode)
 
-[![auc][aucsvg]][auc] [![api][apisvg]][api] [![build][buildsvg]][build] [![Insight][insightsvg]][insight] [![License][licensesvg]][license]
+[![frame][frame]](https://github.com/Blankj/AucFrameTemplate)
+
+[![auc][aucSvg]][auc] [![result][apiSvg]][result] [![build][buildSvg]][build] [![License][licenseSvg]][license]
 
 ## [README of Chinese][readme-cn]
 
@@ -32,51 +34,56 @@ If this project helps you a lot and you want to support the project's developmen
 
 ## Contact
 
-[![Blog][blogsvg]][blog] [![jianshu][jianshusvg]][jianshu] [![weibo][weibosvg]][weibo] [![QQGroup][qqgroupsvg]][qqgroup]
+[![Blog][blogSvg]][blog] [![jianshu][jianshuSvg]][jianshu] [![weibo][weiboSvg]][weibo] [![QQGroup][qqgroupSvg]][qqgroup]
 
 
-## [Update Log][update_log.md]
+## [Change Log][changeLog.md]
 
+
+## 打个小广告
+
+欢迎加入我的知识星球「**[基你太美](https://t.zsxq.com/FmeqfYF)**」，我会在星球中分享 [AucFrame](https://blankj.com/2019/07/22/auc-frame/) 框架、大厂面经、[AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) 更详尽的说明...一切我所了解的知识，你可以通过支付进入我的星球「**[基你太美](https://t.zsxq.com/FmeqfYF)**」进行体验，加入后优先观看星球中精华的部分，如果觉得星球的内容对自身没有收益，你可以自行申请退款退出星球，也没必要加我好友；**如果你已确定要留在我的星球，可以通过扫描如下二维码（备注：基你太美）加我个人微信，发送给我你的星球 ID，方便我后续拉你进群(PS：进得越早价格越便宜)。**
+
+![我的二维码](https://raw.githubusercontent.com/Blankj/AndroidUtilCode/master/art/wechat.png)
 
 
 [logo]: https://raw.githubusercontent.com/Blankj/AndroidUtilCode/master/art/logo.png
 
-[aucsvg]: https://img.shields.io/badge/AndroidUtilCode-v1.21.2-brightgreen.svg
+[frame]: https://raw.githubusercontent.com/Blankj/AndroidUtilCode/master/art/auc_frame.png
+
+[aucSvg]: https://github.com/Blankj/AndroidUtilCode/workflows/Android%20CI/badge.svg?branch=master
 [auc]: https://github.com/Blankj/AndroidUtilCode
 
-[apisvg]: https://img.shields.io/badge/API-14+-brightgreen.svg
-[api]: https://android-arsenal.com/api?level=14
+[apiSvg]: https://img.shields.io/badge/API-14+-brightgreen.svg
+[result]: https://android-arsenal.com/result?level=14
 
-[buildsvg]: https://travis-ci.org/Blankj/AndroidUtilCode.svg?branch=master
+[buildSvg]: https://travis-ci.org/Blankj/AndroidUtilCode.svg?branch=master
 [build]: https://travis-ci.org/Blankj/AndroidUtilCode
 
-[insightsvg]: https://www.insight.io/repoBadge/github.com/Blankj/AndroidUtilCode
-[insight]: https://insight.io/github.com/Blankj/AndroidUtilCode
-
-[licensesvg]: https://img.shields.io/badge/License-Apache--2.0-brightgreen.svg
+[licenseSvg]: https://img.shields.io/badge/License-Apache--2.0-brightgreen.svg
 [license]: https://github.com/Blankj/AndroidUtilCode/blob/master/LICENSE
 
 [readme]: https://github.com/Blankj/AndroidUtilCode
 [readme-cn]: https://github.com/Blankj/AndroidUtilCode/blob/master/README-CN.md
 
-[utilcode]: https://github.com/Blankj/AndroidUtilCode/blob/master/utilcode/README.md
-[utilcode-cn]: https://github.com/Blankj/AndroidUtilCode/blob/master/utilcode/README-CN.md
+[utilcode]: https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README.md
+[utilcode-cn]: https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
 
-[subutil]: https://github.com/Blankj/AndroidUtilCode/blob/master/subutil/README.md
-[subutil-cn]: https://github.com/Blankj/AndroidUtilCode/blob/master/subutil/README-CN.md
+[subutil]: https://github.com/Blankj/AndroidUtilCode/blob/master/lib/subutil/README.md
+[subutil-cn]: https://github.com/Blankj/AndroidUtilCode/blob/master/lib/subutil/README-CN.md
 
-[update_log.md]: https://github.com/Blankj/AndroidUtilCode/blob/master/update_log.md
+[changeLog.md]: https://github.com/Blankj/AndroidUtilCode/blob/master/CHANGELOG.md
 
 [donate]: https://raw.githubusercontent.com/Blankj/AndroidUtilCode/master/art/donate.png
 
-[blogsvg]: https://img.shields.io/badge/Blog-@Blankj-34a48e.svg
+[blogSvg]: https://img.shields.io/badge/Blog-@Blankj-34a48e.svg
 [blog]: http://blankj.com
 
-[jianshusvg]: https://img.shields.io/badge/简书-@Blankj-34a48e.svg
+[jianshuSvg]: https://img.shields.io/badge/简书-@Blankj-34a48e.svg
 [jianshu]: http://www.jianshu.com/u/46702d5c6978
 
-[weibosvg]: https://img.shields.io/badge/weibo-@__Blankj-34a48e.svg
+[weiboSvg]: https://img.shields.io/badge/weibo-@__Blankj-34a48e.svg
 [weibo]: http://weibo.com/3076228982
 
-[qqgroupsvg]: https://img.shields.io/badge/QQ群-25206533-34a48e.svg
+[qqgroupSvg]: https://img.shields.io/badge/QQ群-25206533-34a48e.svg
 [qqgroup]: https://shang.qq.com/wpa/qunwpa?idkey=d906789f84484465e2736f7b524366b4c23afeda38733d5c7b10fc3f6e406e9b

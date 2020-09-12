@@ -1,23 +1,37 @@
-plugins {
-    id 'groovy'
-    id 'java-gradle-plugin'
+repositories {
+    google()
+    jcenter()
+}
+
+apply {
+    plugin 'groovy'
+    plugin 'java-gradle-plugin'
 }
 
 gradlePlugin {
     plugins {
         readmeCore {
             id = 'readme-core'
-            implementationClass = 'com.blankj.plugin.ReadmeCorePlugin'
+            implementationClass = 'com.blankj.plugin.readme.ReadmeCorePlugin'
         }
 
         readmeSub {
             id = 'readme-sub'
-            implementationClass = 'com.blankj.plugin.ReadmeSubPlugin'
+            implementationClass = 'com.blankj.plugin.readme.ReadmeSubPlugin'
         }
     }
 }
 
 dependencies {
-    compile gradleApi()
-    compile localGroovy()
+    implementation gradleApi()
+    implementation localGroovy()
+    implementation "commons-io:commons-io:2.6"
+}
+
+sourceSets {
+    main {
+        groovy {
+            srcDirs += 'src/main/java'
+        }
+    }
 }
